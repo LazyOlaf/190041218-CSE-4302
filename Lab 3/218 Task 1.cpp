@@ -33,6 +33,7 @@ int main()
 {
     Counter C;
     int step_val;
+    cout<<"Enter the step value: ";
     cin>>step_val;
     C.setIncrementStep(step_val);
     C.increment();
