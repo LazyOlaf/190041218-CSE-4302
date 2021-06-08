@@ -42,7 +42,10 @@ int main()
 {
     RationalNumber R;
     int p, q;
-    cin>>p>>q;
+    cout<<"Enter the numerator: ";
+    cin>>p;
+    cout<<"Enter the denominator: ";
+    cin>>q;
     R.Assign(p,q);
     if(q!=0)
     {
